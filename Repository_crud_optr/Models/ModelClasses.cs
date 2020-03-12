@@ -25,4 +25,10 @@ namespace Repository_crud_optr.Models
         public string sname { set; get; }
         public string city { set; get; }
     }
+    public class stu1
+    {
+        public int stuId { set; get; }
+        public string sname { set; get; }
+        public string city { set; get; }
+    }
 }
