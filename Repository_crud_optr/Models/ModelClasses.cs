@@ -19,4 +19,10 @@ namespace Repository_crud_optr.Models
         public int DeptId{set;get;}
         public Dept Dept { set; get; }
     }
+    public class stu
+    {
+        public int stuId { set; get; }
+        public string sname { set; get; }
+        public string city { set; get; }
+    }
 }
